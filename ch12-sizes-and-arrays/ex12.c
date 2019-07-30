@@ -10,6 +10,10 @@ int main(int argc, char *argv[])
         'S', 'h', 'a', 'w', '\0' 
     };
 
+//#include <string.h>
+//    strcpy(name, "Pepe");
+//    strcpy(name, "Pepito");
+
     // WARNING: On some systems you may have to change the
     // %ld in this code to a %u since it will use unsigned ints
     printf("The size of an int: %ld\n", sizeof(int));
@@ -39,7 +43,8 @@ int main(int argc, char *argv[])
 
     for(int i = 0; i < size; i++)
     {
-    	printf("%c\n", my_name[i]);
+    	printf("%c", my_name[i]);
     }
+    printf("\n");
     return 0;
 }
