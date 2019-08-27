@@ -5,15 +5,8 @@
 #include <string.h>
 #include "address.h"
 #include "constants.h"
-
-struct Database {
-    struct Address rows[MAX_ROWS];
-};
-
-struct Connection {
-    FILE *file;
-    struct Database *db;
-};
+#include "database.h"
+#include "connection.h"
 
 void die(const char *message)
 {
