@@ -1,3 +1,5 @@
+#ifndef __ADDRESS_H__
+#define __ADDRESS_H__
 #include "constants.h"
 
 struct Address {
@@ -6,3 +8,5 @@ struct Address {
     char name[MAX_DATA];
     char email[MAX_DATA];
 };
+
+#endif
