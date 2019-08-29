@@ -2,6 +2,10 @@
 
 `cc ex17.c address.c database.c error_handler.c -o ex17`
 
+# Todo-list
+
+- [ ] Crear un `makefile` que compile con todos los ficheros
+
 # Notas
 
 Extraer en ficheros independientes no es buena idea el compilador da problemas si
