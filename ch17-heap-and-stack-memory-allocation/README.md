@@ -1,10 +1,6 @@
 # Compilar
 
-`gcc ex17.c address.c -o ex17`
-
-o
-
-`cc ex17.c address.c -o ex17`
+`cc ex17.c address.c database.c error_handler.c -o ex17`
 
 # Notas
 
