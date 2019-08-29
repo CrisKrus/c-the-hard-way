@@ -8,5 +8,5 @@ struct Address {
     char name[MAX_DATA];
     char email[MAX_DATA];
 };
-
+void Address_print(struct Address*);
 #endif

@@ -19,11 +19,6 @@ void die(const char *message)
     exit(1);
 }
 
-void Address_print(struct Address *addr)
-{
-    printf("%d %s %s\n", addr->id, addr->name, addr->email);
-}
-
 void Database_load(struct Connection *conn)
 {
     int rc = fread(conn->db, sizeof(struct Database), 1, conn->file);

@@ -1,3 +1,13 @@
+# Compilar
+
+`gcc ex17.c address.c -o ex17`
+
+o
+
+`cc ex17.c address.c -o ex17`
+
+# Notas
+
 Extraer en ficheros independientes no es buena idea el compilador da problemas si
 incluyes varias veces el mismo fichero. Por ejemplo si en el fichero `connection.h`
 incluimos `database.h`  el compilador nos dirá que ya está definido.
